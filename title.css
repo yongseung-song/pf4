@@ -1,0 +1,23 @@
+#title {
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+#title .wrap{
+    text-align: left;
+    background-image: url(../img/found1945_2x.jpg);
+    background-size: 54%;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    height: 390px;
+}
+#title h2{
+    color: black;
+    padding-top: 200px;
+}
+#title p{
+    color: black;
+    margin-top: 20px;
+}

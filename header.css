@@ -1,0 +1,91 @@
+/*선택자 selector*/
+header{
+
+  /*! background-color: #eee; */
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+/*하위선택자*/
+header div.wrap{
+
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+header h1{
+
+}
+header h1 a{
+  background-image: url(../img/hjkal_logo.png);
+  width: 195px;
+  height: 30px;
+  display: block;
+  font-size: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(1);
+  transform: translateY(-1.5px);
+}
+header ul.gnb{
+
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+header ul.gnb li{
+
+  text-align: center;
+}
+header ul.gnb li a{
+
+  display: block;
+  font-size: 16px;
+  transition: all 0.5s;
+  line-height: 1.5;
+  color: #000;
+  font-weight: 500;
+  /*! padding: 0 15px; */
+}
+header ul.gnb li a:hover{
+  color: #003092;
+}
+header ul.enb{
+
+  display: flex;
+  /*! gap: 10px; */
+  justify-content: space-between;
+  width: 9%;
+}
+header ul.enb li{
+    
+}
+header ul.enb li a{
+  transition: 0.5s all;
+}
+header ul.enb li:nth-child(1) a{
+  
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  font-weight: 500;
+}
+header ul.enb li:nth-child(1) a:hover{
+  color: #003092;
+}
+header ul.enb li:nth-child(2) a{
+  background: url(../img/globe_1.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  width: 20px;
+  height: 20px;
+  font-size: 0;
+  transform: translateY(3px);
+  filter: grayscale(1) brightness(1.5);
+}
+header ul.enb li:nth-child(2) a:hover{
+  filter: grayscale(0) brightness(0.7);
+}

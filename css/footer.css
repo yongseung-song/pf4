@@ -1,0 +1,42 @@
+footer {
+  background: #eee;
+  padding: 50px 0;
+}
+footer .wrap {
+  height: 180px;
+}
+footer ul {
+  float: left;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 500;
+  margin-left: 33.3%;
+  margin-top: -6px;
+}
+footer .wrap::before{
+  content: "";
+  
+  display: block;
+  width: 80px;
+  float: left;
+  height: 80px;
+  background-image: url(../img/emblem.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer ul li {
+  /*! margin-bottom: 10px; */
+}
+footer p.p {
+  float: left;
+  font-size: 14px;
+  line-height: 2;
+  margin-left: 25%;
+  margin-top: -6px;
+}
+footer p:nth-child(3){
+  clear: both;
+  font-weight: 300;
+  margin-left: 0;
+  margin-top: 60px;
+}
